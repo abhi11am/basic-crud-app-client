@@ -1,3 +1,7 @@
+## Frameworks / Plugins
+- [Next JS](https://nextjs.org/) (React Framework)
+- [Tailwind](https://tailwindcss.com/) (CSS Framework)
+
 
 ## Client Setup
 
