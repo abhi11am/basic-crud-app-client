@@ -10,25 +10,65 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Client Setup
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Create next (react) app:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+npx create-next-app client
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Run next (react) app
 
-## Learn More
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL: https://nextjs.org/telemetry
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Guide to install tailwind for Next.js
+https://tailwindcss.com/docs/guides/nextjs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Install tailwind
 
-## Deploy on Vercel
+```bash
+npm install -D tailwindcss postcss autoprefixer
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Install tailwind forms
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm install -D @tailwindcss/forms
+```
+
+Generate config files
+
+```bash
+npx tailwindcss init -p
+```
+
+Install headless UI (tailwind)
+
+```bash
+npm install @headlessui/react
+```
+
+Install hero icons (tailwind)
+
+```bash
+npm install @heroicons/react
+```
+
+Install moment js
+
+```bash
+npm install moment --save
+```
+
+Install react-toastify
+
+```bash
+npm install --save react-toastify
+```
